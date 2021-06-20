@@ -1,6 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import { SearchOutlined } from "@ant-design/icons";
+import {
+  SearchOutlined,
+  PlusOutlined,
+  CaretDownOutlined,
+} from "@ant-design/icons";
 
 import FacebookLogo from "../assets/fb_logo.svg";
 import HomeIcon from "../assets/fb_home.svg";
@@ -8,6 +12,9 @@ import TvIcon from "../assets/fb_tv.svg";
 import MarketPlaceIcon from "../assets/fb_marketplace.svg";
 import GroupIcon from "../assets/fb_group.svg";
 import GameIcon from "../assets/fb_games.svg";
+import Avatar from "../assets/avatar.jpg";
+import MessengerIcon from "../assets/fb_messenger.svg";
+import NotificationIcon from "../assets/fb_notifications.svg";
 
 const Header: React.FC = () => {
   return (
@@ -43,6 +50,28 @@ const Header: React.FC = () => {
                 <img src={GameIcon} alt="Game" className="_icon" />
               </li>
             </ul>
+          </Col>
+          <Col lg={3} style={{ paddingLeft: "0px" }}>
+            <div className={"profileDetails"}>
+              <img
+                src={Avatar}
+                alt="profile_picture"
+                className="profileDetails__avatar"
+              />
+              <h3>jideabdq...</h3>
+            </div>
+            <div className="fastIcons">
+              <PlusOutlined className="fastIcons__icon" />
+            </div>
+            <div className="fastIcons">
+              <img src={MessengerIcon} alt="Messenger" />
+            </div>
+            <div className="fastIcons">
+              <img src={NotificationIcon} alt="Notification" />
+            </div>
+            <div className="fastIcons">
+              <CaretDownOutlined className="fastIcons__icon" />
+            </div>
           </Col>
         </Row>
       </Container>

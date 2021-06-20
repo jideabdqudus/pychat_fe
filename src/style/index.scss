@@ -91,8 +91,50 @@ body {
     margin-top: 13px;
     margin-bottom: 10px;
   }
-  .hover:hover{
+  .hover:hover {
     background: $input_nav_color;
     border-radius: 10px;
+  }
+
+  .profileDetails {
+    cursor: pointer;
+    display: inline;
+    margin-right: 16px;
+    margin-top: 16px;
+
+    h3 {
+      font-weight: 600;
+      font-family: inherit;
+      font-size: 0.9375rem;
+      color: #b0b3b8;
+      display: inline;
+      padding-left: 5px;
+    }
+
+    &__avatar {
+      height: 30px;
+      border-radius: 100%;
+      display: inline;
+      padding: 2px;
+    }
+
+    // :hover {
+    //   background: red;
+    // }
+  }
+
+  .fastIcons {
+    height: 37px;
+    width: 37px;
+    background-color: $input_nav_color;
+    border-radius: 50%;
+    margin-top: 8px;
+    display: inline-block;
+    cursor: pointer;
+
+    &__icon {
+      color: #e4e6eb;
+      padding-left: 8px;
+    }
   }
 }
