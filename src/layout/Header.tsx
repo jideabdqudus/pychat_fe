@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import { Row } from "reactstrap";
+
+import FacebookLogo from "../assets/fb_logo.png";
 
 const Header: React.FC = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <Row>
+      <div>
+        <img src={FacebookLogo} alt="Logo" />
+        <input />
+      </div>
+    </Row>
+  );
+};
 
-export default Header
+export default Header;

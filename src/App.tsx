@@ -1,10 +1,12 @@
-import React from "react";
-import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import HeaderContainer from "./layout/index";
+import "./style/index.scss";
 
 function App() {
   return (
     <div>
-      Let's get started
+      <HeaderContainer />
     </div>
   );
 }
