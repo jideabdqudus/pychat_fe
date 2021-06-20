@@ -2,4 +2,91 @@
 
 body {
   background-color: $background_color;
+  font-family: $font_family;
+}
+
+.header_row {
+  background: $nav_color;
+  border-bottom: 0.7px solid grey;
+
+  &__externalLinkBadge {
+    display: inline-block;
+  }
+
+  input {
+    background-color: $input_nav_color;
+    border: none;
+    height: 40px;
+    margin: 7px;
+    border-radius: 50px;
+    padding: 7px;
+    width: 240px;
+  }
+
+  i {
+    position: absolute;
+    padding: 12px;
+    padding-left: 20px;
+    min-width: 40px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 24px;
+  }
+
+  li {
+    display: list-item;
+    float: left;
+    width: 111.6px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .icon {
+    color: #95979b;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  ::placeholder {
+    font-size: 0.9375rem;
+    font-family: inherit;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    padding-right: 16px;
+    padding-left: 36px;
+    color: #95979b;
+    touch-action: manipulation;
+    font-weight: normal;
+  }
+
+  .facebook_logo {
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline;
+  }
+
+  .active {
+    transform-origin: center bottom;
+    border-bottom: 3px solid $active_blue;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    top: 1px;
+    border-radius: 2px;
+  }
+  .home_icon {
+    margin-top: 13px;
+    margin-bottom: 10px;
+  }
+
+  .tv_icon {
+    margin-top: 13px;
+    margin-bottom: 10px;
+  }
 }
