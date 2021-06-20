@@ -42,8 +42,10 @@ body {
     display: list-item;
     float: left;
     width: 111.6px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    text-align: center;
   }
 
   .icon {
@@ -85,8 +87,12 @@ body {
     margin-bottom: 10px;
   }
 
-  .tv_icon {
+  ._icon {
     margin-top: 13px;
     margin-bottom: 10px;
+  }
+  .hover:hover{
+    background: $input_nav_color;
+    border-radius: 10px;
   }
 }
