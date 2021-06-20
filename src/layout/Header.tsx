@@ -28,7 +28,7 @@ const Header: React.FC = () => {
             </i>
             <input placeholder="Search Facebook" />
           </Col>
-          <Col lg={6}>
+          <Col lg={6} style={{ paddingRight: "0px" }}>
             <ul>
               <li className="active">
                 <img src={HomeIcon} alt="Home" className="home_icon" />
@@ -51,26 +51,36 @@ const Header: React.FC = () => {
               </li>
             </ul>
           </Col>
-          <Col lg={3} style={{ paddingLeft: "0px" }}>
+          <Col lg={3} style={{ padding: "0px" }}>
             <div className={"profileDetails"}>
               <img
                 src={Avatar}
                 alt="profile_picture"
                 className="profileDetails__avatar"
               />
-              <h3>jideabdq...</h3>
+              <h3>Abdul Qudus A..</h3>
             </div>
-            <div className="fastIcons">
-              <PlusOutlined className="fastIcons__icon" />
-            </div>
-            <div className="fastIcons">
-              <img src={MessengerIcon} alt="Messenger" />
-            </div>
-            <div className="fastIcons">
-              <img src={NotificationIcon} alt="Notification" />
-            </div>
-            <div className="fastIcons">
-              <CaretDownOutlined className="fastIcons__icon" />
+            <div style={{ float: "right" }}>
+              <div className="fastIcons">
+                <PlusOutlined className="fastIcons__icon" />
+              </div>
+              <div className="fastIcons">
+                <img
+                  src={MessengerIcon}
+                  alt="Messenger"
+                  className="fastIcons__icon__image"
+                />
+              </div>
+              <div className="fastIcons">
+                <img
+                  src={NotificationIcon}
+                  alt="Notification"
+                  className="fastIcons__icon__image"
+                />
+              </div>
+              <div className="fastIcons">
+                <CaretDownOutlined className="fastIcons__icon" />
+              </div>
             </div>
           </Col>
         </Row>
