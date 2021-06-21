@@ -12,7 +12,7 @@ import TvIcon from "../assets/fb_tv.svg";
 import MarketPlaceIcon from "../assets/fb_marketplace.svg";
 import GroupIcon from "../assets/fb_group.svg";
 import GameIcon from "../assets/fb_games.svg";
-import Avatar from "../assets/avatar.jpg";
+import Avatar from "../assets/avatar.png";
 import MessengerIcon from "../assets/fb_messenger.svg";
 import NotificationIcon from "../assets/fb_notifications.svg";
 

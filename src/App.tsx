@@ -1,12 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import HeaderContainer from "./layout/index";
+import Dashboard from "./pages/Dashboard";
 import "./style/index.scss";
 
 function App() {
   return (
     <div>
-      <HeaderContainer />
+      <Dashboard />
     </div>
   );
 }
