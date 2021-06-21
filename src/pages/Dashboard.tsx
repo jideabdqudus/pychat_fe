@@ -12,9 +12,7 @@ const Dashboard = () => {
           <Col lg={3}>
             <Aside />
           </Col>
-          <Col lg={6}>
-            Loremx30
-          </Col>
+          <Col lg={6}>Loremx30</Col>
         </Row>
       </Container>
     </div>

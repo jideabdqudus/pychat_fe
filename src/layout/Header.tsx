@@ -58,7 +58,7 @@ const Header: React.FC = () => {
                 alt="profile_picture"
                 className="profileDetails__avatar"
               />
-              <h3>Abdul Qudus A..</h3>
+              <h3>Abdul Q..</h3>
             </div>
             <div style={{ float: "right" }}>
               <div className="fastIcons">
