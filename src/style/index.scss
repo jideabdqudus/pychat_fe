@@ -185,6 +185,15 @@ body {
     line-height: 1.1765;
   }
 
+  &__buttonSpan {
+    color: $secondary_text_color;
+    font-size: 13px;
+    padding: 0px;
+    margin-top: 0px;
+    line-height: 0.3px;
+    font-weight: normal;
+  }
+
   .myBtn {
     outline: 0;
     background-color: transparent;

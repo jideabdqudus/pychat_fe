@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "reactstrap";
-import {DownCircleTwoTone } from "@ant-design/icons";
+import { DownCircleTwoTone } from "@ant-design/icons";
 
 import Avatar from "../../assets/avatar.png";
 import CovidIcon from "../../assets/covid.png";
@@ -12,6 +12,7 @@ import EventsIcon from "../../assets/events.png";
 import MemoriesIcon from "../../assets/memories.png";
 import SavedIcon from "../../assets/saved.png";
 import PagesIcon from "../../assets/pages.png";
+import JavaIcon from "../../assets/java.png";
 
 const AsideL: React.FC = () => {
   return (
@@ -134,25 +135,18 @@ const AsideL: React.FC = () => {
         <li>
           <Button className="myBtn">
             <img
-              src={PagesIcon}
+              src={JavaIcon}
               alt="profile_picture"
               className="myBtn__avatar"
             />
             <h3>Andela Learning Community</h3>
           </Button>
         </li>
-        <li>
-          <Button className="myBtn">
-            <img
-              src={PagesIcon}
-              alt="profile_picture"
-              className="myBtn__avatar"
-            />
-            <h3>Andela Learning Community</h3>
-          </Button>
-        </li>
-        
       </ul>
+      <span className="aside_left__buttonSpan">
+        Privacy · Terms · Advertising · More · Ad Choices · Cookies · Facebook · Jideabdqudus
+        © 2021
+      </span>
     </div>
   );
 };
