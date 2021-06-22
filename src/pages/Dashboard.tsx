@@ -2,6 +2,7 @@ import { Row, Col, Container } from "reactstrap";
 
 import HeaderContainer from "../layout/index";
 import Aside from "../components/aside/index";
+import Home from "../components/home/index";
 
 const Dashboard = () => {
   return (
@@ -12,7 +13,9 @@ const Dashboard = () => {
           <Col lg={3}>
             <Aside />
           </Col>
-          <Col lg={6}>Loremx30</Col>
+          <Col lg={6}>
+            <Home />
+          </Col>
         </Row>
       </Container>
     </div>

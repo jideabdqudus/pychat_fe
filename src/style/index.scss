@@ -247,3 +247,18 @@ body {
     background-color: $input_nav_color;
   }
 }
+
+.home {
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+  }
+  li {
+    display: inline;
+    margin: 10px;
+    color: $secondary_text_color;
+    font-weight: 600;
+  }
+}
