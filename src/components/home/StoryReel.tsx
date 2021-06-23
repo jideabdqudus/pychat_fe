@@ -1,8 +1,5 @@
 import React from "react";
-import story_reel_one from "../../assets/story_reel_1.jpeg";
-import story_reel_two from "../../assets/stroy_reel_two.png";
-import story_reel_three from "../../assets/story_reel_3.jpg";
-import story_reel_four from "../../assets/story_reel_4.jpg";
+import { assets } from "../../constants";
 
 const StoryReel: React.FC = () => {
   return (
@@ -11,12 +8,12 @@ const StoryReel: React.FC = () => {
         <div
           className="storyReel__bg"
           style={{
-            backgroundImage: "url(" + story_reel_one + ")",
+            backgroundImage: `url(${assets.story_reel_one})`,
           }}
         >
           <img
             className="storyReel__avatar"
-            src="https://avatars.githubusercontent.com/u/45945474?v=4"
+            src={assets.avatar_one}
             alt="Story"
           />
           <h4>Jide</h4>
@@ -25,50 +22,58 @@ const StoryReel: React.FC = () => {
         <div
           className="storyReel__bg"
           style={{
-            backgroundImage: "url(" + story_reel_two + ")",
+            backgroundImage: `url(${assets.story_reel_two})`,
           }}
         >
           <img
             className="storyReel__avatar"
-            src="https://avatars.githubusercontent.com/u/45945474?v=4"
+            src={assets.avatar_two}
             alt="Story"
           />
-          <h4>Jide</h4>
-          <h3>Abdul-Qudus</h3>
+          <h4>Moyin</h4>
+          <h3>Okeleye</h3>
         </div>
         <div
           className="storyReel__bg"
           style={{
-            backgroundImage:
-              "url(" +
-              "https://cdn.pixabay.com/photo/2016/11/29/13/00/black-1869685_960_720.jpg" +
-              ")",
+            backgroundImage: `url(${assets.story_reel_three})`,
           }}
         >
           <img
             className="storyReel__avatar"
-            src="https://avatars.githubusercontent.com/u/45945474?v=4"
+            src={assets.avatar_three}
             alt="Story"
           />
-          <h4>Jide</h4>
-          <h3>Abdul-Qudus</h3>
+          <h4>Kags</h4>
+          <h3>Ademola</h3>
         </div>
         <div
           className="storyReel__bg"
           style={{
-            backgroundImage:
-              "url(" +
-              "https://cdn.pixabay.com/photo/2016/11/29/13/00/black-1869685_960_720.jpg" +
-              ")",
+            backgroundImage: `url(${assets.story_reel_four})`,
           }}
         >
           <img
             className="storyReel__avatar"
-            src="https://avatars.githubusercontent.com/u/45945474?v=4"
+            src={assets.avatar_four}
             alt="Story"
           />
-          <h4>Jide</h4>
-          <h3>Abdul-Qudus</h3>
+          <h4>Aisha</h4>
+          <h3>Abdul-Azeez</h3>
+        </div>
+        <div
+          className="storyReel__bg"
+          style={{
+            backgroundImage: `url(${assets.story_reel_five})`,
+          }}
+        >
+          <img
+            className="storyReel__avatar"
+            src={assets.avatar_five}
+            alt="Story"
+          />
+          <h4>John</h4>
+          <h3>Hardeyboy</h3>
         </div>
       </div>
     </div>

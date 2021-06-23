@@ -2,7 +2,10 @@ import React from "react";
 import { Container } from "reactstrap";
 import { FilterOutlined } from "@ant-design/icons";
 
+import "./types";
 import StoryReel from "./StoryReel";
+import Feed from "./Feed";
+import Post from "./Post"
 
 const Home: React.FC = () => {
   return (
@@ -12,14 +15,13 @@ const Home: React.FC = () => {
           <li className="active">Home</li>
           <li>Favorites</li>
           <li>Recent</li>
-          <li className="icon">
-            <FilterOutlined style={{ margin: 0, padding: "0" }} />
-          </li>
+          <FilterOutlined className="filter_icon" />
         </ul>
         <hr />
-        <Container>
+        <div>
           <StoryReel />
-        </Container>
+          <Post />
+        </div>
       </Container>
     </div>
   );
