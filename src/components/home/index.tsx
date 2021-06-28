@@ -4,8 +4,10 @@ import { FilterOutlined } from "@ant-design/icons";
 
 import "./types";
 import StoryReel from "./StoryReel";
+//import Feed from "./Feed";
+import Post from "./Post";
+import Rooms from "./Rooms";
 import Feed from "./Feed";
-import Post from "./Post"
 
 const Home: React.FC = () => {
   return (
@@ -21,6 +23,8 @@ const Home: React.FC = () => {
         <div>
           <StoryReel />
           <Post />
+          <Rooms />
+          <Feed />
         </div>
       </Container>
     </div>

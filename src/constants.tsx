@@ -12,5 +12,6 @@ export const assets = {
   story_reel_four: "/assets/story_reel_4.jpg",
   story_reel_five: "/assets/story_reel_5.jpg",
 
-  icon_set: "/assets/icons_set.png"
+  icon_set: "/assets/icons_set.png",
+  rooms_set: "/assets/rooms_set.png"
 };
