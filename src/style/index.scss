@@ -8,6 +8,11 @@ body {
 .header_row {
   background: $nav_color;
   border-bottom: 0.7px solid grey;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 
   input {
     background-color: $input_nav_color;
@@ -146,6 +151,38 @@ body {
 }
 
 .aside_left {
+  // overflow-y:auto;
+  // position: fixed;
+  height: 100%;
+  width: 22%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 60px;
+  margin-left: 13px;
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
   ul {
     list-style-type: none;
     margin: 0px;
@@ -237,6 +274,25 @@ body {
   .myBtn:hover {
     background-color: $input_nav_color;
   }
+}
+
+.aside_left:hover {
+  overflow-y: auto;
+}
+
+.aside_left::-webkit-scrollbar {
+  width: 6px;
+}
+
+.aside_left::-webkit-scrollbar-track {
+  background: none;
+  margin-top: 60px !important;
+  border-radius: 10px;
+}
+
+.aside_left::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: $input_nav_color;
 }
 
 .home {

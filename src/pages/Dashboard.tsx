@@ -8,7 +8,7 @@ const Dashboard = () => {
   return (
     <div>
       <HeaderContainer />
-      <Container fluid={true}>
+      <Container fluid={true} style={{ marginTop: "55px" }}>
         <Row>
           <Col lg={3}>
             <Aside />
