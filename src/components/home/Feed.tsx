@@ -14,9 +14,18 @@ const Feed: React.FC = () => {
               className="feed__avatar"
             />
           </Col>
-          <Col lg={8}>
+          <Col lg={10} style={{ width: "80%" }}>
             <h4 className="feed__name">Liadi Sulaimon</h4>
-            <span className="feed__time">5h</span>
+            <span className="feed__time">
+              {" "}
+              5h
+              <i className="feed__public_icon"></i>
+            </span>
+          </Col>
+          <Col lg={1} style={{ float: "right" }}>
+            <Button className="hamburger_button">
+              <i className="hamburger" />
+            </Button>
           </Col>
         </Row>
         <div>
@@ -28,6 +37,8 @@ const Feed: React.FC = () => {
         </div>
         <Row className="feed__actions_number">
           <Col lg="9">
+            <img src={assets.heart} alt="Heart" width="17" />
+            <img src={assets.like} alt="Like" width="17" />
             <span>12</span>
           </Col>
           <Col lg="3">
@@ -37,15 +48,51 @@ const Feed: React.FC = () => {
         </Row>
         <Row className="feed__actions">
           <Col lg={4}>
-            <Button className="button">Like</Button>
+            <Button className="button">
+              {" "}
+              <i className="like">
+                {" "}
+                <span>Like</span>
+              </i>
+            </Button>
           </Col>
           <Col lg={4}>
-            <Button className="button">Comment</Button>
+            <Button className="button">
+              {" "}
+              <i className="comment">
+                <span>Comment</span>
+              </i>
+            </Button>
           </Col>
           <Col lg={4}>
-            <Button className="button">Share</Button>
+            <Button className="button">
+              <i className="share">
+                <span>Share</span>
+              </i>
+            </Button>
           </Col>
+          <hr />
         </Row>
+        <div className="comment_section">
+          <h3>View previous comments</h3>
+          <Row>
+            <Col lg={1} style={{ width: "10%" }}>
+              <img
+                src={assets.avatar_two}
+                alt="profile_picture"
+                className="comment_section__avatar"
+              />
+            </Col>
+            <Col lg={10} style={{ width: "80%" }}>
+              <div className="comment_bg">
+                <h4 className="comment_section__name">Liadi Sulaimon</h4>
+                <span className="comment_section__comment">
+                  I love the thought of this
+                </span>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </div>
     </Container>
   );

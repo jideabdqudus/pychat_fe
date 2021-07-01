@@ -13,5 +13,10 @@ export const assets = {
   story_reel_five: "/assets/story_reel_5.jpg",
 
   icon_set: "/assets/icons_set.png",
-  rooms_set: "/assets/rooms_set.png"
+  icon_set_two: "/assets/icons_set_two.png",
+  icon_set_three: "/assets/icons_set_three.png",
+  rooms_set: "/assets/rooms_set.png",
+
+  heart: "/assets/heart.svg",
+  like: "/assets/like.svg",
 };
