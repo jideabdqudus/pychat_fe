@@ -15,6 +15,7 @@ export const assets = {
   icon_set: "/assets/icons_set.png",
   icon_set_two: "/assets/icons_set_two.png",
   icon_set_three: "/assets/icons_set_three.png",
+  icon_set_four: "/assets/icons_set_four.png",
   rooms_set: "/assets/rooms_set.png",
 
   heart: "/assets/heart.svg",

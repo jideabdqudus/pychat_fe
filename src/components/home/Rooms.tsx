@@ -21,29 +21,38 @@ const Rooms: React.FC = () => {
           </Col>
           <Col lg={2} style={{ width: "10%" }}>
             <div className={"profileDetails"}>
-              <img
-                src={assets.avatar_one}
-                alt="profile_picture"
-                className="profileDetails__avatar"
-              />
+              <div className='icon-container'>
+                <img 
+                  src={assets.avatar_one}className="profileDetails__avatar"
+                  alt="profile_picture"
+                />
+                <div className='status-circle'>
+                </div>
+            </div>
             </div>
           </Col>
           <Col lg={2} style={{ width: "10%" }}>
-            <div className={"profileDetails"}>
-              <img
-                src={assets.avatar_two}
-                alt="profile_picture"
-                className="profileDetails__avatar"
-              />
+          <div className={"profileDetails"}>
+              <div className='icon-container'>
+                <img 
+                  src={assets.avatar_two}className="profileDetails__avatar"
+                  alt="profile_picture"
+                />
+                <div className='status-circle'>
+                </div>
+            </div>
             </div>
           </Col>
           <Col lg={2} style={{ width: "10%" }}>
-            <div className={"profileDetails"}>
-              <img
-                src={assets.avatar_three}
-                alt="profile_picture"
-                className="profileDetails__avatar"
-              />
+          <div className={"profileDetails"}>
+              <div className='icon-container'>
+                <img 
+                  src={assets.avatar_three}className="profileDetails__avatar"
+                  alt="profile_picture"
+                />
+                <div className='status-circle'>
+                </div>
+            </div>
             </div>
           </Col>
           <Col lg={2} style={{ width: "10%" }}>

@@ -11,7 +11,7 @@ body {
 
 .header_row {
   background: $nav_color;
-  border-bottom: 0.7px solid grey;
+  border-bottom: 0.3px solid #393A3B;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -96,6 +96,35 @@ body {
     margin-top: 13px;
     margin-bottom: 10px;
   }
+  .notification {
+    // background-color: #555;
+    color: white;
+    text-decoration: none;
+    // padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: 3px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: #F02849;
+    color: white;
+  }
+  .notification .badge-two {
+    position: absolute;
+    top: -6px;
+    font-size: 12px;
+    right: -14px;
+    padding: 0px 6px;
+    border-radius: 50%;
+    background: #F02849;
+    color: white;
+  }
   .hover:hover {
     background: $input_nav_color;
     border-radius: 10px;
@@ -147,6 +176,17 @@ body {
         padding-left: 8px;
         padding-top: 8px;
       }
+    }
+
+    &__menu{
+        background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/wvSU1A_lBfe.png?_nc_eui2=AeEsi5qLtQt1lrOSOnlXS4go8Wj6a0k6zA7xaPprSTrMDi-cT2sStzBoDoixeySJVRmuSD0Db-nQtq1xtH9e3CrK);
+        background-position: -168px -107px;
+        background-size: auto;
+        width: 20px;
+        height: 20px;
+      -webkit-filter: invert(80%);
+        background-repeat: no-repeat;
+        display: inline-block;
     }
   }
   .fastIcons:hover {
@@ -390,6 +430,7 @@ body {
 
   &__bg:hover {
     transform: scale(1.07);
+    background-color: red;
   }
 }
 .post {
@@ -459,6 +500,10 @@ body {
       display: inline-block;
     }
   }
+  // .postActions:hover{
+  //   background-color: $input_nav_color;
+  //   border-radius: 10px;
+  // }
 }
 
 .rooms {
@@ -538,6 +583,24 @@ body {
       display: inline;
       border-radius: 100px;
       object-fit: cover;
+    }
+
+    .icon-container {
+      width: 45px;
+      height: 40px;
+      position: relative;
+    }
+    
+    
+    .status-circle {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: #31A24C;
+      border: 2px solid #242526;
+      bottom: 0;
+      right: 0;
+      position: absolute;
     }
   }
 }
