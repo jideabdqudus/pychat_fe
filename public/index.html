@@ -26,9 +26,7 @@
     -->
     <title>Facebook Clone - TheQoder</title>
     <style>
-      body {
-        overflow-y: hidden;
-      }
+     
       @media (max-width: 768px) {
         #root {
           display: none;
@@ -36,20 +34,6 @@
         #mobile {
           display: flex !important;
           flex-direction: column;
-        }
-      }
-      @keyframes rotateAnimation {
-        0% {
-          transform: rotate(0) scale(1);
-        }
-        50% {
-          transform: rotate(120deg) scale(0);
-        }
-        70% {
-          transform: rotate(-120deg) scale(0);
-        }
-        100% {
-          transform: rotate(0) scale(1);
         }
       }
 
@@ -60,19 +44,6 @@
         justify-content: center;
         display: none;
         background-color: #18191A;
-      }
-
-      #triangle svg {
-        animation: rotateAnimation 3s ease-in-out infinite;
-      }
-      #square svg {
-        animation: rotateAnimation 3s 1s ease-in-out infinite;
-      }
-      #circle svg {
-        animation: rotateAnimation 3s 0.5s ease-in-out infinite;
-      }
-      #cross svg {
-        animation: rotateAnimation 3s 2s ease-in-out infinite;
       }
 
       #loader {
