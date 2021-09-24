@@ -39,7 +39,7 @@ const Feed: React.FC = () => {
           <Col lg="9">
             <img src={assets.heart} alt="Heart" width="17" />
             <img src={assets.like} alt="Like" width="17" />
-            <span>12</span>
+            <span style={{marginLeft:"5px"}}>Juliet Anyakoha and 12 others</span>
           </Col>
           <Col lg="3">
             <span>13 Comments</span>
@@ -74,9 +74,9 @@ const Feed: React.FC = () => {
           <hr />
         </Row>
         <div className="comment_section">
-          <h3>View previous comments</h3>
+          {/* <h3>View previous comments</h3> */}
           <Row>
-            <Col lg={1} style={{ width: "10%" }}>
+            <Col lg={1}>
               <img
                 src={assets.avatar_two}
                 alt="profile_picture"
@@ -85,11 +85,12 @@ const Feed: React.FC = () => {
             </Col>
             <Col lg={10} style={{ width: "80%" }}>
               <div className="comment_bg">
-                <h4 className="comment_section__name">Liadi Sulaimon</h4>
+                <h4 className="comment_section__name">Alabi Sumonu</h4>
                 <span className="comment_section__comment">
-                  I love the thought of this
+                  My bro 💝
                 </span>
               </div>
+              <h6>Like · Reply · <span>28m</span></h6>
             </Col>
           </Row>
         </div>
