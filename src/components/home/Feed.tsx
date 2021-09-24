@@ -93,6 +93,29 @@ const Feed: React.FC = () => {
               <h6>Like · Reply · <span>28m</span></h6>
             </Col>
           </Row>
+          <Row>
+            <Col lg={1}>
+            <div className={"profileDetails"}>
+              <div className='icon-container'>
+                <img 
+                  src={assets.avatar_three}className="comment_section__profile__avatar"
+                  alt="profile_picture"
+                />
+                <div className='status-circle'>
+                </div>
+            </div>
+            </div>
+            </Col>
+            <Col lg={11}>
+            {/* <i className="icon">
+              <SearchOutlined style={{order:2, marginLeft:"Auto"}} />
+            </i> */}
+            <input placeholder="Write a comment..." />
+          </Col>
+            <Col>
+
+            </Col>
+          </Row>
         </div>
       </div>
     </Container>
