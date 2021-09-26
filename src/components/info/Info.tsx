@@ -1,10 +1,12 @@
-import React from 'react'
-import { Container, Button, Row, Col } from "reactstrap";
+import React, { Fragment } from 'react'
+import { Container, Row, Col } from "reactstrap";
+import { assets } from "../../constants";
+
 
 
 const Info = () => {
   return (
-    <Container>
+    <Fragment>
       <div className="info">
         <div className="info__birthdays">
           <h6>
@@ -13,12 +15,32 @@ const Info = () => {
           </h6>
           <ul>
             <li>
-              <b>Osaretin</b>'s Birthday is today
+              <b>Osaretin Ebeuehi</b>'s Birthday is today
             </li>
           </ul>
         </div>
+        <div className="info__sponsored">
+          <h6>Sponsored</h6>
+          <Row className="info__sponsored__hover">
+            <Col lg={6}>
+              <img src={assets.google} alt="Sponsored" width="100" style={{borderRadius:"10px"}}/>
+            </Col>
+            <Col lg={6}>
+              <span>Expand your knowledge with Google IT</span>
+            </Col>
+          </Row>
+          <br/>
+          <Row>
+            <Col lg={6}>
+              <img src={assets.ja} alt="Sponsored" width="100" style={{borderRadius:"10px"}}/>
+            </Col>
+            <Col lg={6}>
+              <span>Learn more about the Jideabdqudus here</span>
+            </Col>
+          </Row>
+        </div>
       </div>
-    </Container>
+    </Fragment>
   )
 }
 
