@@ -43,10 +43,121 @@ const Info = () => {
         <hr/>
         <div className="info__contacts">
           <Row>
-            <Col>
+            <Col lg={8}>
               <h6>Contacts</h6>
             </Col>
+            <Col lg={1}>
+              <i className="info__contacts__vidcam"/>
+            </Col>
+            <Col lg={1}>
+              <i className="info__contacts__search"/>
+            </Col>
+            <Col lg={1}>
+              <i className="info__contacts__more"/>
+            </Col>
           </Row>
+          <div className="info__contacts__contact">
+            <Row>
+              <Col lg={2}>
+                <div className='icon-container'>
+                      <img 
+                        src={assets.avatar_three}className="info__contacts__contact__profile__avatar"
+                        alt="profile_picture"
+                      />
+                      <div className='status-circle'>
+                      </div>
+                  </div>
+              </Col>
+              <Col lg={7}>
+                <h4>John Babatola</h4>
+              </Col>
+            </Row>
+          </div>
+          <div className="info__contacts__contact">
+            <Row>
+              <Col lg={2}>
+                <div className='icon-container'>
+                      <img 
+                        src={assets.avatar_three}className="info__contacts__contact__profile__avatar"
+                        alt="profile_picture"
+                      />
+                      <div className='status-circle'>
+                      </div>
+                  </div>
+              </Col>
+              <Col lg={7}>
+                <h4>John Babatola</h4>
+              </Col>
+            </Row>
+          </div>
+          <div className="info__contacts__contact">
+            <Row>
+              <Col lg={2}>
+                <div className='icon-container'>
+                      <img 
+                        src={assets.avatar_three}className="info__contacts__contact__profile__avatar"
+                        alt="profile_picture"
+                      />
+                      <div className='status-circle'>
+                      </div>
+                  </div>
+              </Col>
+              <Col lg={7}>
+                <h4>John Babatola</h4>
+              </Col>
+            </Row>
+          </div>
+          <div className="info__contacts__contact">
+            <Row>
+              <Col lg={2}>
+                <div className='icon-container'>
+                      <img 
+                        src={assets.avatar_three}className="info__contacts__contact__profile__avatar"
+                        alt="profile_picture"
+                      />
+                      <div className='status-circle'>
+                      </div>
+                  </div>
+              </Col>
+              <Col lg={7}>
+                <h4>John Babatola</h4>
+              </Col>
+            </Row>
+          </div>
+          <div className="info__contacts__contact">
+            <Row>
+              <Col lg={2}>
+                <div className='icon-container'>
+                      <img 
+                        src={assets.avatar_three}className="info__contacts__contact__profile__avatar"
+                        alt="profile_picture"
+                      />
+                      <div className='status-circle'>
+                      </div>
+                  </div>
+              </Col>
+              <Col lg={7}>
+                <h4>John Babatola</h4>
+              </Col>
+            </Row>
+          </div>
+          <div className="info__contacts__contact">
+            <Row>
+              <Col lg={2}>
+                <div className='icon-container'>
+                      <img 
+                        src={assets.avatar_three}className="info__contacts__contact__profile__avatar"
+                        alt="profile_picture"
+                      />
+                      <div className='status-circle'>
+                      </div>
+                  </div>
+              </Col>
+              <Col lg={7}>
+                <h4>John Babatola</h4>
+              </Col>
+            </Row>
+          </div>
         </div>
       </div>
     </Fragment>
