@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Container, Row, Col } from "reactstrap";
+import {  Row, Col } from "reactstrap";
 import { assets } from "../../constants";
 
 
@@ -15,27 +15,36 @@ const Info = () => {
           </h6>
           <ul>
             <li>
-              <b>Osaretin Ebeuehi</b>'s Birthday is today
+              <b>Osaretin</b>'s Birthday is today.
             </li>
           </ul>
         </div>
+        <hr/>
         <div className="info__sponsored">
           <h6>Sponsored</h6>
           <Row className="info__sponsored__hover">
-            <Col lg={6}>
+            <Col lg={5}>
               <img src={assets.google} alt="Sponsored" width="100" style={{borderRadius:"10px"}}/>
             </Col>
             <Col lg={6}>
               <span>Expand your knowledge with Google IT</span>
             </Col>
           </Row>
-          <br/>
-          <Row>
-            <Col lg={6}>
+          <Row className="info__sponsored__hover">
+            <Col lg={5}>
               <img src={assets.ja} alt="Sponsored" width="100" style={{borderRadius:"10px"}}/>
             </Col>
             <Col lg={6}>
-              <span>Learn more about the Jideabdqudus here</span>
+              <span>Learn more about Jideabdqudus</span>
+              <a href="https://abdulqudus.com" target="__blank" rel="noopener">abdulqudus.com</a>
+            </Col>
+          </Row>
+        </div>
+        <hr/>
+        <div className="info__contacts">
+          <Row>
+            <Col>
+              <h6>Contacts</h6>
             </Col>
           </Row>
         </div>
